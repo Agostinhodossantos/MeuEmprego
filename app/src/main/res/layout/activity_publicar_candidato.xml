@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PublicarCandidato">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_perfil"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/back"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"/>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tv_nome_completo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="30"
+                android:hint="Nome completo"/>
+
+
+           <LinearLayout
+               android:orientation="horizontal"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+               <com.google.android.material.textfield.TextInputEditText
+                   android:id="@+id/tv_idade"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:hint="Idade"/>
+
+               <com.google.android.material.textfield.TextInputEditText
+                   android:id="@+id/tv_distrito"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:hint="Distrito, Bairo"/>
+           </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tv_telefone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Telefone"/>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tv_proficao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Proficao"/>
+
+          <LinearLayout
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+              <Spinner
+                  android:id="@+id/sp_localizacao"
+                  android:layout_weight="1"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"/>
+
+              <Spinner
+                  android:id="@+id/sp_nivel_academico"
+                  android:layout_weight="1"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"/>
+
+          </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tv_pequena_descricao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Pequena descricao: Ex:.Sou especializada em desenvolvimento de sites ,e aplicativos"/>
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tv_descricao_completa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Descricao completa"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

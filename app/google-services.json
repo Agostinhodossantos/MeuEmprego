@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "401389922497",
+    "firebase_url": "https://meu-emprego-fe8f0.firebaseio.com",
+    "project_id": "meu-emprego-fe8f0",
+    "storage_bucket": "meu-emprego-fe8f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401389922497:android:7be00c73192d295d158c40",
+        "android_client_info": {
+          "package_name": "meuemprego.co.mz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "401389922497-kooigiok14fmbo3jsdp22i4ol2iv20g1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "meuemprego.co.mz",
+            "certificate_hash": "dd78c3e9df834fae4bac9ebf5922f8a357d7435d"
+          }
+        },
+        {
+          "client_id": "401389922497-qvjqidpr5avuc9tbirfit31l8crd0vjr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDlQyCgHu85AbtFpV3ZqH8l-Y73QgK1lk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "401389922497-qvjqidpr5avuc9tbirfit31l8crd0vjr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
